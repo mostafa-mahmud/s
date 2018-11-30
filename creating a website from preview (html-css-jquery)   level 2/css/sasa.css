@@ -1,0 +1,131 @@
+*										{box-sizing:border-box;}
+html									{}
+body									{position: relative}
+.container								{width:80%;	margin: auto;}
+.clear-fix								{clear:both;}
+a										{text-decoration:none;	color:white;	text-shadow:.5px .5px 1px #848484;}
+h2,h3									{text-transform: capitalize;	margin:0;}
+h2										{padding:10px;	margin:0;	}
+h2> span								{padding:10px;	padding-right:0;	border-bottom:1px solid #000;}
+/*start the header*/
+header									{}
+/*start navigation bar*/
+header> nav								{z-index: 2; height:70px;	overflow: hidden; padding: 20px; position:absolute;	top:0px;	width:100%;}
+header> nav> .container					{}
+header> nav> .container> .logo			{ color:#fff;	float:left;	width:20%;	padding-bottom:10px;	position:relative;	font-size:20px;}
+header> nav> .container> .logo:before	{content:"";	display:block;	position:absolute;	top:0px;	left:-25px;	border-color:transparent transparent #14c49b;	border-style:solid;	border-width:0px 10px 20px 10px;}
+header> nav> .container> ul				{margin:0px;	float:right;	width:40%;}
+header> nav> .container> ul> li			{transition:all .5s ease-in-out;	margin:0px;	float:left;	padding:10px;	padding-left:2%;	padding-right:2%;}
+header> nav> .container> ul> li:hover	{transition:all .5s ease-in-out;	cursor:pointer;	border-bottom:2px solid #14c49b;}
+header> nav> .container> ul> li.active	{transition:all .5s ease-in-out;	cursor:pointer;	border-bottom:2px solid #14c49b;}
+header> nav> .container> ul> li a		{transition:all .5s ease-in-out;}
+header> nav> .container> ul> li:hover a	{color:#14c49b;}
+header> nav> .container> ul> li.active a{color:#14c49b;}
+/*end navigation bar*/
+
+/*start slider bar*/	
+header> .slider							{z-index: 1; position:relative;	overflow: hidden; color:#fff;	background-color: black}
+.slider> .the-content					{}
+.slider> .the-content> .slide			{}
+.slider> .the-content> .slide> img		{}
+.slider> .the-content> .slide> h2		{text-align: center;}
+.slider> .the-content> .slide> h2> span	{color:#14c49b;}
+.slider> .the-content> .slide> p		{width:20%;	text-align: center;	padding: 10px; margin: auto;}
+.slider> .controls						{}
+.slider> .controls> .arow-left			{}
+.slider> .controls> .arow-left> i		{}
+.slider> .controls> .arow-right			{}
+.slider> .controls> .arow-right> i		{}
+.slider>  a								{display:block;	width:100px;	margin: auto;}
+.slider>  a	> button					{border:.5px solid #fff;	border-radius:7px;	position:absolute;	bottom:30px;	color:#fff;	background-color:transparent;	padding:7px;	outline-color:#fff;	margin:auto;	display: block;}
+/*end slider bar*/
+
+/*end the header*/
+/*start the content*/
+
+.content								{}
+
+/*start the our-services*/
+.content> .our-services													{padding-top:50px;	padding-bottom:50px;}
+.content> .our-services> .container										{}
+.content> .our-services> .container> h2									{}
+.content> .our-services> .container> h2> span							{}
+.content> .our-services> .container> .os-content						{}
+.content> .our-services> .container> .os-content .one-content			{width:30%;	float:left;	padding:20px;}
+.content> .our-services> .container> .os-content .one-content h3		{margin:0;width:75%;	float:right;}
+.content> .our-services> .container> .os-content .one-content p			{color:#888888;width:75%;	float:right;}
+.content> .our-services> .container> .os-content .one-content i			{color:#14c49b;	width:20%;	float:left; }
+/*end the our-services*/
+
+hr											{border-width: .1; border-color:#ccc;	opacity:.1;}
+
+/*start the our-team*/
+.our-team									{padding-top:50px;	padding-bottom:50px;}
+.our-team> .container						{}
+.our-team> .container> .ot-text				{padding:20px;	width:40%;	float:left;}
+.our-team> .container> .ot-text> h2			{}
+.our-team> .container> .ot-text> h2> span	{}
+.our-team> .container> .ot-text> h2> span> p{}
+.our-team> .container> .ot-imges			{width:60%;	float:right;	margin-top:30px;}
+.our-team> .container> .ot-imges> img		{border-radius:30px;	border:1px solid #14c49b;	width:24%;	margin:0px}	
+/*end the our-team-*/
+
+			/*start the our-clients*/
+
+.our-clints											{background-image:url(../images/630772.jpg);	background-position:center 900px;	color:#fff;	overflow: hidden;}
+.our-clints> .container								{padding-bottom:50px;	padding-top:50px;height:100%;	background-color:rgba(51, 51, 51, 0.63); width:100%;}
+.our-clints> .container>  h2						{width:80%;	margin: auto;}
+.our-clints> .container>  h2> span					{border-color:#fff;}
+.our-clints> .container> .con						{height:100%;	text-align: center;	width:400%;}
+.our-clints> .container> .con> .client				{float:left;	width:25%;}
+.our-clints> .container> .con> .client p			{width: 80%;	margin:40px auto;}
+.our-clints> .container> .con> .client p:last-child	{color:#14c49b;	font-weight:bolder;}
+			/*end the our-clients*/
+/*start the our-projects*/
+.our-projects													{padding-top:50px;	padding-bottom:50px;}
+.our-projects> .container										{}
+.our-projects> .container> h2									{}
+.our-projects> .container> h2 span								{}
+.our-projects> .container> .our-option							{margin-top:10px;}
+.our-projects> .container> .our-option> a						{transition:all .5s ease-in-out;	border-radius:7px;	border:.5px solid #eee;	color:#aaa;	text-shadow: none;	padding:10px;	display:inline-block;	margin:5px;}
+.our-projects> .container> .our-option> a:hover					{transition:all .5s ease-in-out;	background-color:#14c49b;	color:white;}
+.our-projects> .container> .projects							{width:100%;}
+.our-projects> .container> .projects> .project					{position:relative;	width:30%;	float:left;	margin:1%;	border-radius:7px;	border:.5px solid #eee;	text-align:center;}
+.our-projects> .container> .projects> .project> img				{overflow: hidden;	 width:100%;}
+.our-projects> .container> .projects> .project> div				{height: 100%; opacity:0;	width:100%;	position:absolute;	top:0px;	transition:all .5s ease-in-out;}
+.our-projects> .container> .projects> .project:hover> div		{opacity:1;	height:100%;	background-color:rgba(20, 196, 155, 0.9);}
+.our-projects> .container> .projects> .project> div> a			{border:.5px solid #aaa;	border-radius:15px;	width:50%;	display: block;	padding:10px;	margin:20% auto;	transition:all .5s ease-in-out;}
+.our-projects> .container> .projects> .project:hover> div> a	{border:.5px solid #fff;}
+.our-projects> .container> .projects> .project> div> i			{}
+/*end the our-projects*/
+/*end the content*/
+/*start the fotter*/
+footer															{font-size:.8em;color:#eee;	background-color:#242224;	padding-top:50px;}
+footer> .container												{}
+footer>	.container> .the-first-row								{}
+footer> .container> .the-first-row> .about-site,				
+footer> .container> .the-first-row> .tags,						
+footer> .container> .the-first-row> .recent-posts,				
+footer> .container> .the-first-row> .blog						{width:25%;float:left;}
+
+footer> .container> .the-first-row> .about-site					{}
+footer> .container> .the-first-row> .about-site> h2				{}
+footer> .container> .the-first-row> .about-site> p				{color:#888;}
+footer> .container> .the-first-row> .about-site> ul				{margin:0px;	padding:0px;	padding-top:20px;	padding-bottom:40px;	list-style-type: none;}
+footer> .container> .the-first-row> .about-site> ul li			{float:left;}
+footer> .container> .the-first-row> .about-site> i				{}
+footer> .container> .the-first-row> .tags						{}
+footer> .container> .the-first-row> .tags> h2					{}
+footer> .container> .the-first-row> .tags> span					{transition:all .5s ease-in-out;	border-radius:7px;	border:.5px solid #eee;	color:#aaa;	text-shadow: none;	padding:10px;	display:inline-block;	margin:5px;}
+footer> .container> .the-first-row> .recent-posts				{}
+footer> .container> .the-first-row> .recent-posts .post			{}
+footer> .container> .the-first-row> .recent-posts .post> img	{}
+footer> .container> .the-first-row> .recent-posts .post> h3		{}
+footer> .container> .the-first-row> .recent-posts .post> p		{}
+footer> .container> .the-first-row> .blog						{}
+footer> .container> .the-first-row> .blog> h2					{}
+footer> .container> .the-first-row> .blog> ul					{list-style-type: none;padding:0px;}
+footer> .container> .the-first-row> .blog> ul> li				{padding-top:10px;	padding-bottom:10px;	margin:5px;	border-bottom:1px solid rgba(221, 221, 221, 0.31);}
+footer> .container> .copy										{color:#888;padding: 5px;	margin:0px;}
+footer> .container> .copy> p									{}
+/*end the fotter*/

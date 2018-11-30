@@ -1,0 +1,16 @@
+/*general*/
+*						{}
+html					{}
+html body				{}
+html> body> .container	{}
+
+/*header*/
+body header				{}
+body header nav			{}
+
+
+/*content*/
+body .contenty			{}
+
+/*fotter*/
+body fotter				{}
